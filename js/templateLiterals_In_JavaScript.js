@@ -5,8 +5,8 @@
 
 // =========================================================================================================
 
-const name = "Shubham Singh";
-const age = 25;
+const myname = "Shubham Singh";
+const myage = 25;
 const greet = "Hello Satyam, how are you?";
 
 console.log(name, age, greet); // Output: Shubham Singh 25 Hello Satyam, how are you?
@@ -19,9 +19,9 @@ console.log(name, age, greet); // Output: Shubham Singh 25 Hello Satyam, how are
 
 console.log(
   "My Name is " +
-    name +
+    myname +
     ". I am " +
-    age +
+    myage +
     " years old. My message to satyam is " +
     greet +
     "."
@@ -36,7 +36,7 @@ console.log(
 // Doing the same task using Template Literals
 
 console.log(
-  `My Name is ${name}. I am ${age} years old. My message to satyam is ${greet}.`
+  `My Name is ${myname}. I am ${myage} years old. My message to satyam is ${greet}.`
 );
 
 // Output: My Name is Shubham Singh. I am 25 years old. My message to satyam is Hello Satyam, how are you?.

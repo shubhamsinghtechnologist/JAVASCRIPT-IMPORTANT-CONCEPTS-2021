@@ -1,11 +1,7 @@
-// console.log("Hello World");
-// =======================================================
-
 // Variables in JavaScript
 // ========================
 
 // var is old but let and const are the modern feature of JS introduced in EcmaScript-2015 or ES-6.
-
 
 // 01. var = variables created using var keyword can be redeclared with same name, can be
 // reassigned value also and be hoisted also. JavaScript engine moves the declaration to the top
@@ -115,9 +111,9 @@ letScope(); // Output: 7088983522
 
 // It is compulsory to initialize const variables at the time of its declaration.
 
-const day; // Only declare not initialize
-day = "FRIDAY"; // Now initialize
-console.log(day); // Getting Error, i.e,
+// const day; // Only declare not initialize
+// day = "FRIDAY"; // Now initialize
+// console.log(day); // Getting Error, i.e,
 // Output: Uncaught SyntaxError: Missing initializer in const declaration
 
 // ==================================================== THE END ========================================================================================
